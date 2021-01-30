@@ -1,0 +1,32 @@
+:root{
+    --vermelho:#ea0000
+}
+
+/*Base*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    color:white;
+    max-width: 375px;
+    max-height: 812px;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--vermelho);
+}
+
+
+
