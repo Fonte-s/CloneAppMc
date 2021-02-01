@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 :root{
-    --vermelho:#ea0000
+
+    
+    --vermelho:#c70007;
+    --amarelo:#facb26;
 }
 
 /*Base*/
@@ -77,7 +80,7 @@ header .container{
   #sidebar{
     position: fixed;
     background: black;
-    height: 100%;
+    height: 100% ;
     width: 70%;
     overflow: hidden;
     left: -270px;
@@ -109,7 +112,7 @@ header .container{
   #sidebar .list-items li:hover{
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    box-shadow: 0 0px 10px 3px yellow;
+    box-shadow: 0 0px 10px 3px var(--amarelo);
   }
   #sidebar .list-items li:first-child{
     border-top: none;
@@ -143,7 +146,7 @@ header .container{
     margin: 0 5px;
     font-size: 18px;
     color: black;
-    background: yellow;
+    background: var(--amarelo);
     border-radius: 5px;
     border: 1px solid #ffd900;
     transition: all 0.3s ease;
@@ -154,5 +157,50 @@ header .container{
   }
  
   /*Sidebar*/
-  
+.owl-theme{
+  background-color: var(--vermelho);
+}
+
+  /*Last Part*/
+  .secundaria{
+    display: flex;
+    flex-direction: column;
+    height: 349px;
+    background-color: var(--vermelho);
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+
+  .itemdonalds{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    padding-right: 50px;
+  }
+
+ .secundaria :nth-child(1) {
+  border-bottom: solid white 0.3px;
+  padding-left:47px;
+ }
+ .secundaria :nth-child(2) {
+  border-bottom: solid white 0.3px;
+  padding-left: 47px;
+ }
+ .secundaria :nth-child(3) {
+
+  padding-left: 47px;
+ }
+
+ .secundaria .itemdonalds h2{
+   border-bottom: none;
+ }
+
+   /*Last Part*/
   
