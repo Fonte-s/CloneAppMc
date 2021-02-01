@@ -27,7 +27,12 @@ header .container{
     justify-content: space-between;
     align-items: center;
     background-color:var(--vermelho);
+    
 }
+
+ .meuscupons .fas fa-ticket-alt{
+ 
+ }
 
 /*Sidebar*/
 
