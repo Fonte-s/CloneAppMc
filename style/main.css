@@ -19,12 +19,13 @@ body{
     
     font-family: 'Arial', 'Times New Roman', Times, serif;
     color:white;
-    max-width: 375px;
-    max-height: 812px;
+    min-width: 375px;
+    min-height: 812px;
 }
 
 
 header .container{
+  padding-top: 5px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,15 +34,24 @@ header .container{
     
 }
 
- .meuscupons .fas fa-ticket-alt{
  
- }
 
 /*Sidebar*/
+header .container .meuscupons img{
+
+padding-left: 50px;
+width: 35px;
+
+}
+.mequi{
+  display:flex;
+  padding-left: 40px;
+}
+
 
 .wrapper{
     height: 30%;
-    width: 50px;
+    width: 10px;
     position:relative;
 }
 
@@ -50,7 +60,7 @@ header .container{
     left: 20px;
     top: -30px;
     color: white;
-    height: 60px;
+    height: 55px;
     width: 20px;
     z-index: 9999;
     cursor: pointer;
@@ -66,7 +76,6 @@ header .container{
 
 .wrapper .menu-btn i{
     position: absolute;
- 
     font-size: 23px;
     transition: all 0.3s ease;
   }
@@ -80,7 +89,7 @@ header .container{
   #sidebar{
     position: fixed;
     background: black;
-    height: 100% ;
+    height: 101% ;
     width: 70%;
     overflow: hidden;
     left: -270px;
@@ -181,25 +190,43 @@ header .container{
     flex-direction: row;
     justify-content: right;
     align-items: flex-end;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-right: 50px;
   }
 
  .secundaria :nth-child(1) {
   border-bottom: solid white 0.3px;
-  padding-left:47px;
+  padding-left: 13px;
+  margin-right: 20px;
+  
  }
  .secundaria :nth-child(2) {
   border-bottom: solid white 0.3px;
-  padding-left: 47px;
+  padding-left: 13px;
+  margin-right: 20px;
  }
  .secundaria :nth-child(3) {
 
-  padding-left: 47px;
+  padding-left: 13px;
+  margin-right: 20px;
  }
 
  .secundaria .itemdonalds h2{
    border-bottom: none;
+   padding-left: 13px;
+   align-items: center;
+   display: flex;
+   font-size: 23px;
+ }
+
+ .secundaria .itemdonalds h2 img{
+   border-bottom: none;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+    height: 28%;
+    width: 28%;
+    
  }
 
    /*Last Part*/
