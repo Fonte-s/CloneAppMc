@@ -37,22 +37,18 @@ header .container{
  
 
 /*Sidebar*/
-header .container .meuscupons img{
 
-padding-left: 50px;
-width: 35px;
-
-}
 .mequi{
   display:flex;
-  padding-left: 40px;
+  padding-left: 38px;
 }
 
 
 .wrapper{
     height: 30%;
     width: 10px;
-    position:relative;
+    position: relative;
+    z-index: 9999;
 }
 
 .wrapper .menu-btn{
@@ -70,17 +66,25 @@ width: 35px;
     transition: all 0.3s ease;
 }
 
-/*#btn:checked ~ .menu-btn{
-    left: 150px;
-}*/
+#btn:checked ~ .menu-btn{
+    left: 140px;
+}
 
 .wrapper .menu-btn i{
     position: absolute;
     font-size: 23px;
-    transition: all 0.3s ease;
+    transition: all 0.1,7s ease;
   }
 
 
+  .wrapper .menu-btn i.fa-times{
+    opacity: 0;
+  }
+  #btn:checked ~ .menu-btn i.fa-times{
+    opacity: 1;
+    transform: rotate(-180deg);
+    right: 110px;
+  }
   #btn:checked ~ .menu-btn i.fa-bars{
     opacity: 0;
     transform: rotate(180deg);
