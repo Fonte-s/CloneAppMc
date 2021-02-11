@@ -9,9 +9,6 @@
 
 
 
-<p align = " center">
-<a href="#ComoAbrir"> Como abrir a tela</a>
-</p>
 
 
 
@@ -45,6 +42,6 @@
 <!--Features-->
 
 
-  ###Falta Fazer... :open_file_folder:
+ <h4>Falta Fazer... :open_file_folder: </h4>
 - [ ] Utilizar DOM do JS
 
