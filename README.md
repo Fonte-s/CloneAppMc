@@ -23,7 +23,7 @@
 
 <h2 align="center"> Como abrir a tela</h2>
 
-<p aling =" justify"> Clique com botão direito na página aberta e escolha a opção inspeção de elementos e abra a pagina como celular e poderá ver o real funcionamento dela</p>
+<p aling =" justify"> Clique com botão direito na página aberta e escolha a opção "inspeção de elementos", abra a pagina como celular e poderá ver o real visual dela</p>
 
 
 
