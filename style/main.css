@@ -97,7 +97,7 @@ header .container{
   #sidebar{
     position: fixed;
     background: black;
-    height: 101% ;
+    height: 100% ;
     width: 70%;
     overflow: hidden;
     left: -270px;
